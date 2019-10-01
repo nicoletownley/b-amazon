@@ -102,7 +102,7 @@ function promptCustomerForItem(inventory) {
             checkIfShouldExit(val.quantity)
            var quantity = parseInt(val.quantity);
             if (quantity>product.stock_quantity) {
-                console.log("Insufficient products. Please review the inventory and select a lesser amount");
+                console.log("Insufficient products. Please review the inventory and select a lesser amount or a product that is in stock");
                 loadProduct ();
             } else {
                 makePurchase (product, quantity);
@@ -144,7 +144,7 @@ function promptCustomerForItem(inventory) {
     function checkIfShouldExit(choice) {
         if (choice.toLowerCase() === "q") {
           // Log a message and exit the current node process
-          console.log("Thank you for shopping with us! Please come again");
+          console.log("Thank you for shopping with us! Please come again!");
           process.exit(0);
 
         }
