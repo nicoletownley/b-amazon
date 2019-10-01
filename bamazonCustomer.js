@@ -1,4 +1,3 @@
-
 var mysql = require("mysql");
 require ("console.table")
 var inquirer = require ("inquirer")
@@ -19,7 +18,7 @@ var connection = mysql.createConnection({
 connection.connect(function(err) {
   if (err) throw err;
   console.log("connected as id " + connection.threadId);
-  connection.end();
+//   connection.end();
 });
 
 //the purpose of this function is to load the products
@@ -30,14 +29,14 @@ function loadProduct () {
             promptCustomerForId(res);
         })
 }
-// loadProduct();
+loadProduct();
 function promptCustomerForId (inventory) {
     inquirer
     .prompt([
         {
         type: "input",
         name:  "choice",
-        message: "What is the name of the product you would like to buy?"
+        message: "What is the Item-id of the product you would like to buy?"
         }
     ])
     .then(function(val){
@@ -61,9 +60,9 @@ function promptCustomerForId (inventory) {
             }
         ])
         .then(function(val){
-           var quantity = parseInt(val.quanity);
-            if (quanity>product.stock_quantity) {
-                console.log("insufficient products");
+           var quantity = parseInt(val.quantity);
+            if (quantity>product.stock_quantity) {
+                console.log("insufficient products. Please review the inventory and select a lesser amount");
                 loadProduct ();
             } else {
                 makePurchase (product, quantity);
@@ -72,10 +71,10 @@ function promptCustomerForId (inventory) {
         });
     }
 
-    function makePurchase(product, quanity){
+    function makePurchase(product, quantity){
         connection.query(
-            "UPDATE products SET stock_quanity = - ? WHERE item_id = ?",
-            [quanity, product.item_id],
+            "UPDATE products SET stock_quantity = - ? WHERE item_id = ?",
+            [quantity, product.item_id],
             function(err, res){
                 loadProduct();
             }
