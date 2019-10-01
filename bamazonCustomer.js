@@ -59,7 +59,7 @@ function promptCustomerForItem(inventory) {
         {
           type: "input",
           name: "choice",
-          message: "What is the ID of the item you would you like to purchase? press Q to exit",
+          message: "What is the item-id of what you would you like to purchase? Or, to exit press Q",
           validate: function(val) {
             return !isNaN(val) || val.toLowerCase() === "q";
           }
@@ -92,7 +92,7 @@ function promptCustomerForItem(inventory) {
             {
             type: "input",
             name:  "quantity",
-            message: "How many items would you like to purchase? press Q to quit",
+            message: "How many items would you like to purchase? If you would like to exit press Q to quit",
             validate: function(val) {
                 return !isNaN(val) || val.toLowerCase() === "q";
               }
@@ -102,7 +102,7 @@ function promptCustomerForItem(inventory) {
             checkIfShouldExit(val.quantity)
            var quantity = parseInt(val.quantity);
             if (quantity>product.stock_quantity) {
-                console.log("insufficient products. Please review the inventory and select a lesser amount");
+                console.log("Insufficient products. Please review the inventory and select a lesser amount");
                 loadProduct ();
             } else {
                 makePurchase (product, quantity);
@@ -139,12 +139,13 @@ function promptCustomerForItem(inventory) {
             }
         }
         console.log("This item is not avaliable, please select another item")
-    }
+    }   
 
     function checkIfShouldExit(choice) {
         if (choice.toLowerCase() === "q") {
           // Log a message and exit the current node process
-          console.log("Goodbye!");
+          console.log("Thank you for shopping with us! Please come again");
           process.exit(0);
+
         }
       }
