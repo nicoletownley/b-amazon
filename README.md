@@ -1,23 +1,28 @@
-# **__b-amazon: An Amazon Storefronth from the Back-End__**
+# **__ An Amazon Storefront From The Back-End (b-amazon)__**
 
 # *Please Note:*
-    This is a CLI App, it cannot be deployed to GitHub pages. I  included screenshots, and or a GIF, and or a video showing that I have the app working with no bugs. 
+    This is a CLI App, it cannot be deployed to GitHub pages.
+    
+    I included screenshots, and or a GIF, and or a video showing that I have the app working with no bugs.
+    
+    Following, is information as it relates to the application:
 
-    Following, is information as it relates to the application(s):
+# **__What Problem Does The Application Solve?__**  
+It solves the problem of being able to develop, employ and manipulate relational databases
 
-# **__What Problem Does The Application SOLVE:__**  
+while using our local computers as servers. 
+# **__What Is The App Doing and Why?__** 
+The app is taking information from a MySQL database and transferring it to node.js. 
+This way an app can be developed through the use of Javascript which will allow data use for business functioning.
 
-
-# **__What is the app doing and why:__** 
-
-
-# **__How is the app organized?:__** 
+# **__How Is The App Organized?__** 
  The app is organized to receive javaScript commands as they realate to node, use data from MySQL, and return data via the command prompt line using node in terminal/bash. 
 
-# **__How do you run the app?:__** 
+# **__How Do You Run The App?__** 
 You run the app by doing the following:
 1. Ensure you have the following installed:
 * Node.js
+* package.jason
 npm init or npm init -y
 * Console table
     -npm install console.table --save
@@ -37,11 +42,15 @@ npm install mysql
 
 
         
-# **__Sceenshots GIFs or Video?:__** 
+# **__Sceenshots GIFs Or Video:__** 
 
 A screenshot showing all of the above commands working can be found at: 
 
-# **__Sceenshots GIFs or Video?:__**  
+# **__Technology Used:__**
+* Node.js
+* Markdown
+* MySQL
+* Javascript
 
-# **__My Role In the App Development__**
+# **__My Role In The App Development__**
  My role was to develop base  was to develop the MySQL database and the code necessary meet the requirements of the homework assignment. I brainstormed and collaborated with other students about approach and functionality.
