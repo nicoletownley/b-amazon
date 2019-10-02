@@ -11,7 +11,7 @@
 It solves the problem of being able to develop, employ and manipulate relational databases
 
 while using our local computers as servers. 
-# **__What Is The App Doing and Why?__** 
+# **__What Is The App Doing And Why?__** 
 The app is taking information from a MySQL database and transferring it to node.js. 
 This way an app can be developed through the use of Javascript which will allow data manipulation for business functioning.
 
@@ -45,6 +45,7 @@ Node.js:
 https://drive.google.com/file/d/150yKuWggmU_uGC1-EGrbjesVinZwGUAM/view
 
 2.  Screenshots showing all of the above commands working can be found at:
+
 https://github.com/nicoletownley/b-amazon/blob/master/Images/Purchase1.PNG
 
 https://github.com/nicoletownley/b-amazon/blob/master/Images/Purchase2.PNG
