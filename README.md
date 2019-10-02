@@ -22,15 +22,12 @@ This way an app can be developed through the use of Javascript which will allow 
 You run the app by doing the following:
 1. Ensure you have the following installed:
 Node.js:
-* package.jason
-* npm init or npm init -y
+* package.jason - npm init or npm init -y
 * Console table
-* npm install console.table --save
-* bower install console.table --save
-* Inquirer:
-npm install inquirer
-    * MySQL
-npm install mysql
+    - npm install console.table --save
+    - bower install console.table --save
+* Inquirer - npm install inquirer
+* MySQL - npm install mysql
 
 2. Enter into the command base/terminal command line:
  node bamazonCustomer.js
@@ -47,10 +44,11 @@ npm install mysql
 
 https://drive.google.com/file/d/150yKuWggmU_uGC1-EGrbjesVinZwGUAM/view
 
-2. Here are screen shots:
+2.  Screenshots showing all of the above commands working can be found at:
+https://github.com/nicoletownley/b-amazon/blob/master/Images/Purchase1.PNG
 
-
-A screenshot showing all of the above commands working can be found at: 
+https://github.com/nicoletownley/b-amazon/blob/master/Images/Purchase2.PNG
+ 
 
 # **__Technology Used:__**
 * Node.js
