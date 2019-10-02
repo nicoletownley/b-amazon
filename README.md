@@ -20,9 +20,11 @@ This way an app can be developed through the use of Javascript which will allow 
  
 # **__How Do You Run The App?__** 
 You run the app by doing the following:
+
 1. Ensure you have the following installed:
+
 Node.js:
-* package.jason - npm init or npm init -y
+* package.jason  - npm init or npm init -y
 * Console table
     - npm install console.table --save
     - bower install console.table --save
@@ -34,7 +36,7 @@ Node.js:
 3. Answering the following questions:
     * What is the item-id of what you would you like to purchase?
     * How many items would you like to purchase?
-4. After you have made your selection, you may press 'Q'to exit.
+4. After you have made your selection, you may press 'Q or q' to exit.
 
 
 
