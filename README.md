@@ -60,4 +60,4 @@ https://github.com/nicoletownley/b-amazon/blob/master/Images/Purchase2.PNG
 * Javascript
 
 # **__My Role In The App Development__**
- My role was to develop base  was to develop the MySQL database and the code necessary meet the requirements of the homework assignment. I brainstormed and collaborated with other students about approach and functionality.
+ My role was to develop the MySQL database and the javascript code necessary meet the requirements of the homework assignment. I brainstormed and collaborated with other students about approach and functionality.
