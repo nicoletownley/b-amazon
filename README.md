@@ -1,4 +1,4 @@
-# **__ An Amazon Storefront From The Back-End (b-amazon)__**
+# **_ An Amazon Storefront From The Back-End (b-amazon)_**
 
 # *Please Note:*
     This is a CLI App, it cannot be deployed to GitHub pages.
