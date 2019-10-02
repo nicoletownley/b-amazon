@@ -1,4 +1,4 @@
-# **_ An Amazon Storefront From The Back-End (b-amazon)_**
+# **An Amazon Storefront From The Back-End (b-amazon)**
 
 # *Please Note:*
     This is a CLI App, it cannot be deployed to GitHub pages.
@@ -43,6 +43,12 @@ npm install mysql
 
         
 # **__Sceenshots GIFs Or Video:__** 
+1. Here is the video:
+
+https://drive.google.com/file/d/150yKuWggmU_uGC1-EGrbjesVinZwGUAM/view
+
+2. Here are screen shots:
+
 
 A screenshot showing all of the above commands working can be found at: 
 
